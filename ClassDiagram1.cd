@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibrary5.Citoyen">
+    <Position X="5" Y="1.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAA=</HashCode>
+      <FileName>Citoyen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="testé" />
+      <Property Name="NonTesté" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassLibrary5.Testé">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Négatif" Type="ClassLibrary5.NonPatient" ManuallyRouted="true">
+      <Path>
+        <Point X="7.75" Y="1.368" />
+        <Point X="9.615" Y="1.368" />
+        <Point X="9.615" Y="2.184" />
+        <Point X="10.25" Y="2.184" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Testé.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Positif" />
+      <Property Name="Négatif" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassLibrary5.NonTesté">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonTesté.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inconnu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassLibrary5.Patient">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary5.NonPatient">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonPatient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary5.Laboratoire">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Laboratoire.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Resultat" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassLibrary5.Confiné">
+    <Position X="13.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAACAA=</HashCode>
+      <FileName>Confiné.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Patient" />
+      <Property Name="Hospitalisé" />
+      <Property Name="Maison" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassLibrary5.Maison">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maison.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary5.Hospitalisé">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hospitalisé.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary5.Inconnu">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inconnu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary5.Traitement">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Traitement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Maison" />
+      <Property Name="Hospitalisé" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
